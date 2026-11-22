@@ -1,0 +1,11 @@
+{
+  "name": "envsecure-shiva",
+  "version": "0.1.0",
+  "private": true,
+  "description": "EnvSecure-Shiva v1: governance layer in front of the Keysrs relay. Zero dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "shiva": "bin/shiva.mjs" },
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "engines": { "node": ">=22" }
+}
